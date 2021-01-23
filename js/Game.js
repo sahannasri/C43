@@ -80,7 +80,7 @@ class Game {
                             if( cars[index - 1].isTouching(obstacles)){
                                                 s.play();
 
-                    yVel -= 0.9;
+                    yVel -= 0.9;}
                 }
                
               }
