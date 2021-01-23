@@ -17,7 +17,8 @@ var bronze_img, silver_img, gold_img;
 var xSet;
 var yVel, xVel;
 function preload(){
-  s=loadSound("sounds/sliding.mp3")
+  s=loadSound("sound/sliding.mp3")
+  f2 = loadImage("images/f1.png");
 
   track = loadImage("images/track.jpg");
   car1_img = loadImage("images/car1.png");
