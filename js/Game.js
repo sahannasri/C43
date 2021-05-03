@@ -131,8 +131,12 @@ class Game {
           //display sprites
           drawSprites();
         }
-      }
-      /*
+        //image(bronze_img, displayWidth/-4, -100 + displayHeight/9, 200,240 );
+        //image(silver_img, displayWidth/4, -100 + displayHeight/10, 225,270);
+        //image(gold_img, 0, -100, 250,300);
+
+      
+      
         displayRanks(){
           //display the medals
           camera.position.y = 0;
@@ -161,4 +165,4 @@ class Game {
               }
           }
       }
-  }*/
+  }
